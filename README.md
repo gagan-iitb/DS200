@@ -6,6 +6,8 @@ This is the course web-page for Architecture for Management of Large Datasets be
 
 Other Instructors: [Dr. Soumajit Pramanik](https://www.iitbhilai.ac.in/index.php?pid=soumajit), [Dr. Subhajit Sidhanta](https://iitbhilai.ac.in/index.php?pid=subhajit)
 
+Teaching Assistant: Muttareddygari Sreechakra
+
 Motivation
 ----------
 Over the past few years, we have seen the emergence of "big data": disruptive technologies that have transformed commerce, science, and many aspects of society. These developments are enabled by infrastructure that allows us to distribute computations across hundreds or even thousands of commodity servers.
