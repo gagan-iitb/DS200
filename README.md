@@ -4,7 +4,7 @@ This is the course web-page for Architecture for Management of Large Datasets be
 
 <br> Course Instructor: [Dr. Gagan Raj Gupta ](https://www.iitbhilai.ac.in/index.php?pid=gagan)
 
-Other Instructors: Dr. Soumajit Pramanik, Dr. Subhajit Sidhanta
+Other Instructors: [Dr. Soumajit Pramanik](https://www.iitbhilai.ac.in/index.php?pid=soumajit), [Dr. Subhajit Sidhanta](https://iitbhilai.ac.in/index.php?pid=subhajit)
 
 Motivation
 ----------
