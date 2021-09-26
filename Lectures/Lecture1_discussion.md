@@ -11,6 +11,49 @@ __Explain the five Vs of Big Data?__
 * Value: Finally, the V for value sits at the top of the big data pyramid. This refers to the ability to transform a tsunami of data into business.
 
 
+__What is a datacenter?__
+
+
+__What is an abstraction?__
+
+
+__How does it help to have a higher level of abstraction? Can there be any negative consequences__
+
+
+
+
+__What is a data lake?__
+
+
+__What do you mean by architecture? What is software or hardware architecture?__
+
+
+__Graphs__
+
+__Relational Data__
+
+
+__What are some difficulties with parallel or concurrent programming?__
+
+
+
+__How does MapReduce solve these problems?__
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
