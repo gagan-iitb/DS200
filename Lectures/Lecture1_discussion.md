@@ -42,6 +42,11 @@ __How does MapReduce solve these problems?__
 
 
 
+__Give examples of some problems you can solve with Map Reduce with some details__
+
+
+
+
 
 
 
