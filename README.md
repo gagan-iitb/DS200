@@ -26,7 +26,7 @@ Course Objectives
 * Introduce various distributed programming models and abstractions
 * Explain new paradigm of __algorithm design__ with MapReduce for handling large datasets 
 * Introduce __streaming algorithms__ for processing streaming data
-* Provide hands-on experience to students in analyzing datasets in diverse fields __(IOT, NLP, Graphs, Networks, Bio-informatics)__
+* Provide hands-on experience to students in analyzing datasets in diverse fields __(Industry 4.0, NLP, Graphs, Networks, Bio-informatics, Time-series)__
 * Understand the software architecture
 
 Pre-requisites
@@ -60,4 +60,4 @@ Similar Courses
 ----------------
 * https://people.eecs.berkeley.edu/~istoica/classes/cs294/15/
 * http://lintool.github.io/UMD-courses/bigdata-2015-Spring/overview.html
-* 
+* https://www.cs.utexas.edu/~dfranke/courses/2018fall/cs378-BDP.htm
