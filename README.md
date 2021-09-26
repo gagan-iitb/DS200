@@ -1,7 +1,9 @@
 # DS200 (Architecture for Management of Large Datasets)
 
 This is the course web-page for Architecture for Management of Large Datasets being taught at [IIT Bhilai, India](https://www.iitbhilai.ac.in/index.php) in the Monsoon Semester of 2021.
+
 <br> Course Instructor: [Dr. Gagan Raj Gupta ](https://www.iitbhilai.ac.in/index.php?pid=gagan)
+
 Other Instructors: Dr. Soumajit Pramanik, Dr. Subhajit Sidhanta
 
 Motivation
