@@ -46,12 +46,12 @@ Tentative Course Outline
 |1| Sep 28 | Large Datasets Examples; Data-center Architecture; Important of Analysis; Requirements on Architecture for Managing Large Datasets;  How would you analyze large dataset?: Sequential vs. Parallel Programming;  Higher levels of Abstraction for Parallel Programming: Datacenter is new computer; Data Intensive and Data Parallel Computing; MapReduce introduction |  |
 |2| Sep 30 | Von-Neumann Model and current computers; Memory Hierarchy; Storage Technologies; Parallel Reads and Writes; Reliability and Cost Tradeoff with distributed file systems, latency and throughput; External Memory Algorithms: External Merge Sort||
 |3| Oct 1 | Reliability Cost Tradeoff review; Streaming Model Introduction; Paralel Computing Models: synchronization; PRAM model: Computing Minimum with N/2 Processors via Tournament Method, Correctness, Solving with P<N/2 processors; BSP model; Map Reduce Explained; Demo of scalability via Map-Reduce on word-count problems||
-|4| Oct 5 | Map Deep Dive; Programming Paradigms: Declarative, Functional; Generators; Lazy evaluation; Parallel Map on multi-core machines; Out of Order Execution||
-|5| Oct 7 | Reduce Deep Dive; Aggregation||
-|6| Oct 8 | Map-Reduce; Optimization: Combine construction of Map Reduce; ||
-|7| Oct 12 | Filtering patterns: Data cleaning, Bloom Filters for Set Membership, Top 10, Distinct items | |
-|8| Oct 14|  Pipelining, Chaining | |
-|9| Oct 21| More patterns, Exam 1 Review/Prep| | 
+|4| Oct 5 | Hash Functions, Aggregation of Data using Map Reduce, Optimizing MapReduce by using Combine and Partition, Conditions on using Combine, Example of Spotify and MailTrust, Word Count Optimized | MMDS 2.1|
+|5| Oct 7 | Examples of Aggregation: Count, Min, Max, Avergae, Sum, Median, Percentiles; Relational Algebra, SQL and Pandas Examples, Optimizing Percentile Calculations| MMDS 2.2|
+|6| Oct 8 | Tutorials on Input and Output of Map-Reduce; Regular Expressions, Shell Scripting; Map and Reduce in Python; Notion of efficiency of a parallel program; Compute Min (Comparison) efficiency; Amdahl’s law; ||
+|7| Oct 12 | Filtering patterns: Data cleaning, Bloom Filters for Set Membership | |
+|8| Oct 14| Filtering patterns: Top 10 , Distinct Items; Operations on Multiple Relations (Tables, Datasets): Union, Intersection, Difference, Joins; Matrix Multiplication Reservoir Sampling | |
+|9| Oct 21| Pipelining, Chaining, Bag operations, More patterns, Exam 1 Review/Prep| | 
 
 Meeting Times
 -------------
