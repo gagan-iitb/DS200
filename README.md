@@ -43,19 +43,22 @@ Tentative Course Outline
 -------------------------
 |Lec #| Date| Topics covered in class | Text Book Reference, readings |
 | --- | ------------| ----------- | -------- |
-|1| Sep 28 | Large Datasets Examples; Data-center Architecture; Important of Analysis; Requirements on Architecture for Managing Large Datasets;  How would you analyze large dataset?: Sequential vs. Parallel Programming;  Higher levels of Abstraction for Parallel Programming: Datacenter is new computer; Data Intensive and Data Parallel Computing; MapReduce introduction |  |
-|2| Sep 30 | Von-Neumann Model and current computers; Memory Hierarchy; Storage Technologies; Parallel Reads and Writes; Reliability and Cost Tradeoff with distributed file systems, latency and throughput; External Memory Algorithms: External Merge Sort||
-|3| Oct 1 | Reliability Cost Tradeoff review; Streaming Model Introduction; Paralel Computing Models: synchronization; PRAM model: Computing Minimum with N/2 Processors via Tournament Method, Correctness, Solving with P<N/2 processors; BSP model; Map Reduce Explained; Demo of scalability via Map-Reduce on word-count problems||
-|4| Oct 5 | Hash Functions, Aggregation of Data using Map Reduce, Optimizing MapReduce by using Combine and Partition, Conditions on using Combine, Example of Spotify and MailTrust, Word Count Optimized | MMDS 2.1|
-|5| Oct 7 | Examples of Aggregation: Count, Min, Max, Avergae, Sum, Median, Percentiles; Relational Algebra, SQL and Pandas Examples, Optimizing Percentile Calculations| MMDS 2.2|
-|6| Oct 8 | Tutorials on Input and Output of Map-Reduce; Regular Expressions, Shell Scripting; Map and Reduce in Python; Notion of efficiency of a parallel program; Compute Min (Comparison) efficiency; Amdahl’s law; ||
-|7| Oct 12 | Filtering patterns: Data cleaning, Bloom Filters for Set Membership | |
-|8| Oct 14| Filtering patterns: Top 10 , Distinct Items; Operations on Multiple Relations (Tables, Datasets): Union, Intersection, Difference, Joins; Matrix Multiplication Reservoir Sampling | |
-|9| Oct 21|  Pipelining, Chaining, Bag operations, More patterns, WorkFlow Systems, Exam 1 Review/Prep| | 
-|10-12| Oct 26,28,29|  indexing with map-reduce, TF-IDF scoring with map-reduce, and Language models with map-reduce ||
-|13,14| Nov 2,5| bfs/dfs, pagerank, random walk||
-|15,16,17| Nov 8-12|Spark Architecture and Programming ||
-|18| Nov 16| Intro to Spark ML||
+|1| Sep 28 | Large Datasets Examples; Data-center Architecture; Important of Analysis; Requirements on Architecture for Managing Large Datasets;  How would you analyze large dataset?: Sequential vs. Parallel Programming;  Higher levels of Abstraction for Parallel Programming: Datacenter is new computer; Data Intensive and Data Parallel Computing; MapReduce introduction | DTP |
+|2| Sep 30 | Von-Neumann Model and current computers; Memory Hierarchy; Storage Technologies; Parallel Reads and Writes; Reliability and Cost Tradeoff with distributed file systems, latency and throughput; External Memory Algorithms: External Merge Sort| References|
+|3| Oct 1 | Reliability Cost Tradeoff review; Streaming Model Introduction; Paralel Computing Models: synchronization; PRAM model: Computing Minimum with N/2 Processors via Tournament Method, Correctness, Solving with P<N/2 processors; BSP model; Map Reduce Explained; Demo of scalability via Map-Reduce on word-count problems|References|
+|4| Oct 5 | Hash Functions, Aggregation of Data using Map Reduce, Optimizing MapReduce by using Combine and Partition, Conditions on using Combine, Example of Spotify and MailTrust, Word Count Optimized | MRDP, MMDS 2.1|
+|5| Oct 7 | Examples of Aggregation: Count, Min, Max, Avergae, Sum, Median, Percentiles; Relational Algebra, SQL and Pandas Examples, Optimizing Percentile Calculations| MRDP, MMDS 2.2|
+|6| Oct 8 | Tutorials on Input and Output of Map-Reduce; Regular Expressions, Shell Scripting; Map and Reduce in Python; Notion of efficiency of a parallel program; Compute Min (Comparison) efficiency; Amdahl’s law; | References |
+|7| Oct 12 | Filtering patterns: Data cleaning, Bloom Filters for Set Membership | MRDP |
+|8| Oct 14| Filtering patterns: Top 10 , Distinct Items; Operations on Multiple Relations (Tables, Datasets): Union, Intersection, Difference, Joins; Matrix Multiplication Reservoir Sampling | MRDP |
+|9| Oct 21|  Pipelining, Chaining, Bag operations, More patterns, WorkFlow Systems, Exam 1 Review/Prep| HDG, MMDS Ch2  | 
+|10-12| Oct 26,28,29|  indexing with map-reduce, TF-IDF scoring with map-reduce, and Language models with map-reduce |DTP|
+|13,14| Nov 2,5| bfs/dfs, pagerank, random walk|DTP|
+|15,16,17| Nov 8-12|Spark Architecture and Programming |MMDS, SDG|
+|18| Nov 16| Intro to Spark ML| SDG|
+|| | HDFS, Yarn, Hadoop I/O | HDG |
+|| | Anatomy of MapReduce Job Run | HDG|
+|| | Pig, Hive, Zookeeper |HDG|
 
 
 
@@ -66,11 +69,13 @@ Meeting Times
 Books/References/Practice materials
 -----------------------------------
 * Course Textbooks
-  * Hadoop: The Definitive Guide, 4th Edition : https://www.oreilly.com/library/view/hadoop-the-definitive/9781491901687/
-  * Mastering large datsets with python : https://www.manning.com/books/mastering-large-datasets-with-python
-  * Data-Intensive Text Processing with MapReduce : https://lintool.github.io/MapReduceAlgorithms/
-  * Map-Reduce Design Patterns : https://www.oreilly.com/library/view/mapreduce-design-patterns/9781449341954/
-  
+  * (HDG) Hadoop: The Definitive Guide, 4th Edition : https://www.oreilly.com/library/view/hadoop-the-definitive/9781491901687/
+  * (MLDP) Mastering large datsets with python : https://www.manning.com/books/mastering-large-datasets-with-python
+  * (DTP) Data-Intensive Text Processing with MapReduce : https://lintool.github.io/MapReduceAlgorithms/
+  * (MRDP) Map-Reduce Design Patterns : https://www.oreilly.com/library/view/mapreduce-design-patterns/9781449341954/
+  * (MMDS) Mining of Massive Datasets : http://www.mmds.org/
+  * (SDG) Spark: The Definitve Guide: https://www.oreilly.com/library/view/spark-the-definitive/9781491912201/
+
 * Handouts (short notes on various important topics)
 * Sample code snippets will be posted in the Handouts section for students to practice data analysis programming
 * Useful datasets will also be provided for practice
