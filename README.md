@@ -6,7 +6,9 @@ This is the course web-page for Architecture for Management of Large Datasets be
 
 Other Instructors: [Dr. Soumajit Pramanik](https://www.iitbhilai.ac.in/index.php?pid=soumajit), [Dr. Subhajit Sidhanta](https://iitbhilai.ac.in/index.php?pid=subhajit)
 
-Teaching Assistant: Muttareddygari Sreechakra
+Teaching Assistants: Muttareddygari Sreechakra, Anirban Haldar
+
+Canvas Link: https://canvas.instructure.com/courses/3570804
 
 Motivation
 ----------
