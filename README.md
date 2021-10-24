@@ -51,7 +51,13 @@ Tentative Course Outline
 |6| Oct 8 | Tutorials on Input and Output of Map-Reduce; Regular Expressions, Shell Scripting; Map and Reduce in Python; Notion of efficiency of a parallel program; Compute Min (Comparison) efficiency; Amdahl’s law; ||
 |7| Oct 12 | Filtering patterns: Data cleaning, Bloom Filters for Set Membership | |
 |8| Oct 14| Filtering patterns: Top 10 , Distinct Items; Operations on Multiple Relations (Tables, Datasets): Union, Intersection, Difference, Joins; Matrix Multiplication Reservoir Sampling | |
-|9| Oct 21| Pipelining, Chaining, Bag operations, More patterns, Exam 1 Review/Prep| | 
+|9| Oct 21|  Pipelining, Chaining, Bag operations, More patterns, WorkFlow Systems, Exam 1 Review/Prep| | 
+|10-12| Oct 26,28,29|  indexing with map-reduce, TF-IDF scoring with map-reduce, and Language models with map-reduce ||
+|13,14| Nov 2,5| bfs/dfs, pagerank, random walk||
+|15,16,17| Nov 8-12|Spark Architecture and Programming ||
+|18| Nov 16| Intro to Spark ML||
+
+
 
 Meeting Times
 -------------
